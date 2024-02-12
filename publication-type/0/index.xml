@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Haruto Yoshida</title>
+    <link>https://haruto2001.github.io/publication-type/0/</link>
+      <atom:link href="https://haruto2001.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 31 Aug 2023 14:10:07 +0900</lastBuildDate>
+    <image>
+      <url>https://haruto2001.github.io/media/icon_hu952c26a8a81a91f61c1b62d455ac42c7_432958_512x512_fill_lanczos_center_3.png</url>
+      <title>0</title>
+      <link>https://haruto2001.github.io/publication-type/0/</link>
+    </image>
+    
+    <item>
+      <title>テキストに基づくダイアグラム生成タスクの提案</title>
+      <link>https://haruto2001.github.io/publication/yans2023/</link>
+      <pubDate>Thu, 31 Aug 2023 14:10:07 +0900</pubDate>
+      <guid>https://haruto2001.github.io/publication/yans2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

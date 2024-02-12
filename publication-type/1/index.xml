@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Haruto Yoshida</title>
+    <link>https://haruto2001.github.io/publication-type/1/</link>
+      <atom:link href="https://haruto2001.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Feb 2024 01:39:11 +0900</lastBuildDate>
+    <image>
+      <url>https://haruto2001.github.io/media/icon_hu952c26a8a81a91f61c1b62d455ac42c7_432958_512x512_fill_lanczos_center_3.png</url>
+      <title>1</title>
+      <link>https://haruto2001.github.io/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>自然画像で学習された画像埋め込みにダイアグラムを特徴づける情報は含まれているか？</title>
+      <link>https://haruto2001.github.io/publication/nlp2024/</link>
+      <pubDate>Sun, 11 Feb 2024 01:39:11 +0900</pubDate>
+      <guid>https://haruto2001.github.io/publication/nlp2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
