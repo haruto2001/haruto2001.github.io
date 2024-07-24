@@ -279,12 +279,12 @@
 
   
 
-<meta name="description" content="" />
+<meta name="description" content="Research on understanding and generating diagrams has used vision models such as CLIP. However, it remains unclear whether these models accurately identify diagram attributes, such as node colors and shapes, along with edge colors and connection patterns. This study evaluates how well vision models recognize the diagram attributes by probing the model and retrieving diagrams using text queries. Experimental results showed that while vision models can recognize differences in node colors, shapes, and edge colors, they struggle to identify differences in edge connection patterns that play a pivotal role in the semantics of diagrams. Moreover, we revealed inadequate alignment between diagram attributes and language representations in the embedding space." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://haruto2001.github.io/publication/yans2023/" />
-<link rel="canonical" href="https://haruto2001.github.io/publication/yans2023/" />
+<link rel="alternate" hreflang="en-us" href="https://haruto2001.github.io/publication/acl2024_srw/" />
+<link rel="canonical" href="https://haruto2001.github.io/publication/acl2024_srw/" />
 
 
 
@@ -326,18 +326,18 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Haruto Yoshida" />
-<meta property="og:url" content="https://haruto2001.github.io/publication/yans2023/" />
-<meta property="og:title" content="テキストに基づくダイアグラム生成タスクの提案 | Haruto Yoshida" />
-<meta property="og:description" content="" /><meta property="og:image" content="https://haruto2001.github.io/media/icon_hu952c26a8a81a91f61c1b62d455ac42c7_432958_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://haruto2001.github.io/publication/acl2024_srw/" />
+<meta property="og:title" content="How Well Do Vision Models Encode Diagram Attributes? | Haruto Yoshida" />
+<meta property="og:description" content="Research on understanding and generating diagrams has used vision models such as CLIP. However, it remains unclear whether these models accurately identify diagram attributes, such as node colors and shapes, along with edge colors and connection patterns. This study evaluates how well vision models recognize the diagram attributes by probing the model and retrieving diagrams using text queries. Experimental results showed that while vision models can recognize differences in node colors, shapes, and edge colors, they struggle to identify differences in edge connection patterns that play a pivotal role in the semantics of diagrams. Moreover, we revealed inadequate alignment between diagram attributes and language representations in the embedding space." /><meta property="og:image" content="https://haruto2001.github.io/media/icon_hu952c26a8a81a91f61c1b62d455ac42c7_432958_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2023-08-31T14:10:07&#43;09:00"
+      content="2024-07-24T20:50:15&#43;09:00"
     />
   
   
-    <meta property="article:modified_time" content="2023-08-31T14:10:07&#43;09:00">
+    <meta property="article:modified_time" content="2024-07-24T20:50:15&#43;09:00">
   
 
 
@@ -361,16 +361,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://haruto2001.github.io/publication/yans2023/"
+    "@id": "https://haruto2001.github.io/publication/acl2024_srw/"
   },
-  "headline": "テキストに基づくダイアグラム生成タスクの提案",
+  "headline": "How Well Do Vision Models Encode Diagram Attributes?",
   
-  "datePublished": "2023-08-31T14:10:07+09:00",
-  "dateModified": "2023-08-31T14:10:07+09:00",
+  "datePublished": "2024-07-24T20:50:15+09:00",
+  "dateModified": "2024-07-24T20:50:15+09:00",
   
   "author": {
     "@type": "Person",
-    "name": "吉田遥音"
+    "name": "Haruto Yoshida"
   },
   
   "publisher": {
@@ -381,7 +381,7 @@
       "url": "https://haruto2001.github.io/media/icon_hu952c26a8a81a91f61c1b62d455ac42c7_432958_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": ""
+  "description": "Research on understanding and generating diagrams has used vision models such as CLIP. However, it remains unclear whether these models accurately identify diagram attributes, such as node colors and shapes, along with edge colors and connection patterns. This study evaluates how well vision models recognize the diagram attributes by probing the model and retrieving diagrams using text queries. Experimental results showed that while vision models can recognize differences in node colors, shapes, and edge colors, they struggle to identify differences in edge connection patterns that play a pivotal role in the semantics of diagrams. Moreover, we revealed inadequate alignment between diagram attributes and language representations in the embedding space."
 }
 </script>
 
@@ -403,7 +403,7 @@
 
 
   
-  <title>テキストに基づくダイアグラム生成タスクの提案 | Haruto Yoshida</title>
+  <title>How Well Do Vision Models Encode Diagram Attributes? | Haruto Yoshida</title>
 
   
   
@@ -423,7 +423,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="0e2c111c28c70b8466643981b2b9b026" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="5a0aac55620e1084b245cfa3be7c55fe" >
 
   
   
@@ -730,7 +730,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>テキストに基づくダイアグラム生成タスクの提案</h1>
+  <h1>How Well Do Vision Models Encode Diagram Attributes?</h1>
 
   
 
@@ -748,10 +748,13 @@
     
 
   <span class="author-highlighted">
-      吉田遥音</span>, <span >
-      工藤慧音</span>, <span >
-      青木洋一</span>, <span >
-      坂口慶祐</span>
+      Haruto Yoshida</span>, <span >
+      Keito Kudo</span>, <span >
+      Yoichi Aoki</span>, <span >
+      Ryota Tanaka</span>, <span >
+      Itsumi Saito</span>, <span >
+      Keisuke Sakaguchi</span>, <span >
+      Kentaro Inui</span>
   </div>
   
   
@@ -762,7 +765,7 @@
     
       
     
-    August, 2023
+    July, 2024
   </span>
   
 
@@ -785,47 +788,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="/publication/yans2023/poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-
-</div>
-
 
   
 </div>
@@ -834,6 +796,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Research on understanding and generating diagrams has used vision models such as CLIP. However, it remains unclear whether these models accurately identify diagram attributes, such as node colors and shapes, along with edge colors and connection patterns. This study evaluates how well vision models recognize the diagram attributes by probing the model and retrieving diagrams using text queries. Experimental results showed that while vision models can recognize differences in node colors, shapes, and edge colors, they struggle to identify differences in edge connection patterns that play a pivotal role in the semantics of diagrams. Moreover, we revealed inadequate alignment between diagram attributes and language representations in the embedding space.</p>
     
 
     
@@ -844,8 +809,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#symposium">
-              Symposium
+            <a href="/publication/#paper-conference">
+              Conference paper
             </a>
           </div>
         </div>
@@ -861,7 +826,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">NLP若手の会 (YANS) 第18回シンポジウム</div>
+          <div class="col-12 col-md-9">Non-archival submission for ACL 2024 Student Research Workshop</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -896,7 +861,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Fyans2023%2F&amp;text=%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E3%83%80%E3%82%A4%E3%82%A2%E3%82%B0%E3%83%A9%E3%83%A0%E7%94%9F%E6%88%90%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E6%8F%90%E6%A1%88" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Facl2024_srw%2F&amp;text=How&#43;Well&#43;Do&#43;Vision&#43;Models&#43;Encode&#43;Diagram&#43;Attributes%3F" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -913,7 +878,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Fyans2023%2F&amp;t=%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E3%83%80%E3%82%A4%E3%82%A2%E3%82%B0%E3%83%A9%E3%83%A0%E7%94%9F%E6%88%90%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E6%8F%90%E6%A1%88" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Facl2024_srw%2F&amp;t=How&#43;Well&#43;Do&#43;Vision&#43;Models&#43;Encode&#43;Diagram&#43;Attributes%3F" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -932,7 +897,7 @@
         
       
       <li>
-        <a href="mailto:?subject=%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E3%83%80%E3%82%A4%E3%82%A2%E3%82%B0%E3%83%A9%E3%83%A0%E7%94%9F%E6%88%90%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E6%8F%90%E6%A1%88&amp;body=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Fyans2023%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=How%20Well%20Do%20Vision%20Models%20Encode%20Diagram%20Attributes%3F&amp;body=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Facl2024_srw%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -949,7 +914,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Fyans2023%2F&amp;title=%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E3%83%80%E3%82%A4%E3%82%A2%E3%82%B0%E3%83%A9%E3%83%A0%E7%94%9F%E6%88%90%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E6%8F%90%E6%A1%88" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Facl2024_srw%2F&amp;title=How&#43;Well&#43;Do&#43;Vision&#43;Models&#43;Encode&#43;Diagram&#43;Attributes%3F" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -966,7 +931,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E3%83%80%E3%82%A4%E3%82%A2%E3%82%B0%E3%83%A9%E3%83%A0%E7%94%9F%E6%88%90%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E6%8F%90%E6%A1%88%20https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Fyans2023%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=How&#43;Well&#43;Do&#43;Vision&#43;Models&#43;Encode&#43;Diagram&#43;Attributes%3F%20https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Facl2024_srw%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -983,7 +948,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Fyans2023%2F&amp;title=%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E3%83%80%E3%82%A4%E3%82%A2%E3%82%B0%E3%83%A9%E3%83%A0%E7%94%9F%E6%88%90%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E6%8F%90%E6%A1%88" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fharuto2001.github.io%2Fpublication%2Facl2024_srw%2F&amp;title=How&#43;Well&#43;Do&#43;Vision&#43;Models&#43;Encode&#43;Diagram&#43;Attributes%3F" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1017,12 +982,12 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://haruto2001.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin_ja/avatar_huda8a4075371bfb4f1378acefdd60ef27_36060_270x270_fill_q75_lanczos_center.jpg" alt="吉田遥音"></a>
+      <a href="https://haruto2001.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huda8a4075371bfb4f1378acefdd60ef27_36060_270x270_fill_q75_lanczos_center.jpg" alt="Haruto Yoshida"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://haruto2001.github.io/">吉田遥音</a></h5>
-      <h6 class="card-subtitle">4th year undergraduate student</h6>
+      <h5 class="card-title"><a href="https://haruto2001.github.io/">Haruto Yoshida</a></h5>
+      <h6 class="card-subtitle">1st-year master&rsquo;s student</h6>
       <p class="card-text">I want image models to understand symbolic images</p>
       <ul class="network-icon" aria-hidden="true">
   
@@ -1111,11 +1076,11 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/kudo_keito/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="工藤慧音">
+      <img class="avatar mr-3 avatar-circle" src="/authors/keito_kudo/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Keito Kudo">
     
 
     <div class="media-body">
-      <h5 class="card-title">工藤慧音</h5>
+      <h5 class="card-title">Keito Kudo</h5>
       
       
       <ul class="network-icon" aria-hidden="true">
@@ -1154,11 +1119,11 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/aoki_yoichi/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="青木洋一">
+      <img class="avatar mr-3 avatar-circle" src="/authors/yoichi_aoki/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Yoichi Aoki">
     
 
     <div class="media-body">
-      <h5 class="card-title">青木洋一</h5>
+      <h5 class="card-title">Yoichi Aoki</h5>
       
       
       <ul class="network-icon" aria-hidden="true">
@@ -1197,11 +1162,11 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/sakaguchi_keisuke/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="坂口慶祐">
+      <img class="avatar mr-3 avatar-circle" src="/authors/ryota_tanaka/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Ryota Tanaka">
     
 
     <div class="media-body">
-      <h5 class="card-title">坂口慶祐</h5>
+      <h5 class="card-title">Ryota Tanaka</h5>
       
       
       <ul class="network-icon" aria-hidden="true">
@@ -1216,7 +1181,121 @@
       
     
     <li>
-      <a href="https://keisuke-sakaguchi.github.io/about_jp/" target="_blank" rel="noopener">
+      <a href="https://rtanaka-lab.github.io/" target="_blank" rel="noopener">
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/itsumi_saito/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Itsumi Saito">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Itsumi Saito</h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/keisuke_sakaguchi/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Keisuke Sakaguchi">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Keisuke Sakaguchi</h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://keisuke-sakaguchi.github.io/" target="_blank" rel="noopener">
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/kentaro_inui/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Kentaro Inui">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Kentaro Inui</h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.cl.ecei.tohoku.ac.jp/~inui/" target="_blank" rel="noopener">
         <i class="ai ai-cv"></i>
       </a>
     </li>

@@ -2,24 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://haruto2001.github.io/publication/acl2024_srw/</loc>
+    <lastmod>2024-07-24T20:50:15+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://haruto2001.github.io/publication-type/paper-conference/</loc>
+    <lastmod>2024-07-24T20:50:15+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://haruto2001.github.io/publication_types/</loc>
+    <lastmod>2024-07-24T20:50:15+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://haruto2001.github.io/publication/</loc>
+    <lastmod>2024-07-24T20:50:15+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://haruto2001.github.io/talk/coming-soon/</loc>
     <lastmod>2024-02-11T14:05:50+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://haruto2001.github.io/event/</loc>
     <lastmod>2024-02-11T14:05:50+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://haruto2001.github.io/publication-type/paper-conference/</loc>
-    <lastmod>2024-02-11T01:39:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://haruto2001.github.io/publication_types/</loc>
-    <lastmod>2024-02-11T01:39:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://haruto2001.github.io/publication/</loc>
-    <lastmod>2024-02-11T01:39:11+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://haruto2001.github.io/publication/nlp2024/</loc>
