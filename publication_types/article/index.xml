@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article | Hugo Academic CV Theme</title>
-    <link>https://example.com/publication_types/article/</link>
-      <atom:link href="https://example.com/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://haruto2001.github.io/publication_types/article/</link>
+      <atom:link href="https://haruto2001.github.io/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <url>https://haruto2001.github.io/media/icon_hu7729264130191091259.png</url>
       <title>Article</title>
-      <link>https://example.com/publication_types/article/</link>
+      <link>https://haruto2001.github.io/publication_types/article/</link>
     </image>
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://example.com/publication/preprint/</link>
+      <link>https://haruto2001.github.io/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/preprint/</guid>
+      <guid>https://haruto2001.github.io/publication/preprint/</guid>
       <description>&lt;p&gt;This work is driven by the results in my 
  on LLMs.&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
