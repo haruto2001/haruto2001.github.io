@@ -1,0 +1,20 @@
+{
+  "name": "Haruto Yoshida",
+  "short_name": "Haruto",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef4fa",
+  "theme_color": "#eef4fa",
+  "icons": [
+    {
+      "src": "/assets/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

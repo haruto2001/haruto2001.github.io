@@ -1,0 +1,74 @@
+{
+  "name": {
+    "ja": "吉田 遥音",
+    "en": "Haruto Yoshida"
+  },
+  "affiliation": {
+    "ja": "東北大学大学院 情報科学研究科",
+    "en": "Graduate School of Information Sciences, Tohoku University"
+  },
+  "position": {
+    "ja": "博士後期課程1年",
+    "en": "PhD student (first year)"
+  },
+  "metaDescription": {
+    "ja": "東北大学大学院情報科学研究科の吉田遥音です。自然言語処理とマルチモーダルAI、特にダイアグラム理解に関する研究に取り組んでいます。",
+    "en": "Haruto Yoshida is a PhD student at Tohoku University working on natural language processing, multimodal AI, and diagram understanding."
+  },
+  "introduction": {
+    "ja": [
+      "自然言語処理とマルチモーダルAIに関心があります．特に，視覚言語モデルがダイアグラムの属性や構造をどのように表現・理解しているかを分析する研究に取り組んでいます．"
+    ],
+    "en": [
+      "I am interested in natural language processing and multimodal AI. In particular, I am conducting research that analyzes how vision-language models represent and understand the attributes and structures of diagrams."
+    ]
+  },
+  "links": [
+    {
+      "label": {
+        "ja": "Tohoku NLP Group",
+        "en": "Tohoku NLP Group"
+      },
+      "url": "https://www.nlp.ecei.tohoku.ac.jp/"
+    },
+    {
+      "label": {
+        "ja": "researchmap",
+        "en": "researchmap"
+      },
+      "url": "https://researchmap.jp/haruto-yoshida"
+    },
+    {
+      "label": {
+        "ja": "Email",
+        "en": "Email"
+      },
+      "url": "mailto:yoshida.haruto.p1@dc.tohoku.ac.jp",
+      "icon": "./assets/icons/mail.svg"
+    },
+    {
+      "label": {
+        "ja": "X (Twitter)",
+        "en": "X (Twitter)"
+      },
+      "url": "https://x.com/yoshida_NLP",
+      "icon": "./assets/icons/x.svg"
+    },
+    {
+      "label": {
+        "ja": "LinkedIn",
+        "en": "LinkedIn"
+      },
+      "url": "https://www.linkedin.com/in/harutoyoshida/",
+      "icon": "./assets/icons/linkedin.svg"
+    },
+    {
+      "label": {
+        "ja": "GitHub",
+        "en": "GitHub"
+      },
+      "url": "https://github.com/haruto2001",
+      "icon": "./assets/icons/github.svg"
+    }
+  ]
+}

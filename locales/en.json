@@ -1,0 +1,35 @@
+{
+  "pageTitle": "Research Profile",
+  "labels": {
+    "sectionNavigation": "Section navigation",
+    "language": "Language",
+    "links": "Links",
+    "themeToggle": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "skipToContent": "Skip to main content",
+    "current": "Present",
+    "awardRate": "Award rate",
+    "lastUpdated": "Last updated",
+    "emptyState": "No entries yet.",
+    "configMissing": "Display configuration was not found.",
+    "loadError": "Failed to load the data.",
+    "avatarAlt": "Avatar of Haruto Yoshida"
+  },
+  "sections": {
+    "education": "Education",
+    "publications": "Publications",
+    "awards": "Awards",
+    "career": "Career"
+  },
+  "publicationGroups": {
+    "conferencePeerReviewed": "Conference (Peer Reviewed)",
+    "workshopPeerReviewed": "Workshop (Peer Reviewed)",
+    "conferenceNotPeerReviewed": "Conference (Not Peer Reviewed)",
+    "workshopNotPeerReviewed": "Workshop (Not Peer Reviewed)",
+    "journal": "Journal",
+    "preprint": "Preprint"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "pageTitle": "研究者プロフィール",
+  "labels": {
+    "sectionNavigation": "ページ内セクションナビゲーション",
+    "language": "言語",
+    "links": "リンク",
+    "themeToggle": "テーマ",
+    "themeLight": "ライト",
+    "themeDark": "ダーク",
+    "switchToLight": "ライトモードに切り替え",
+    "switchToDark": "ダークモードに切り替え",
+    "skipToContent": "本文へスキップ",
+    "current": "現在",
+    "awardRate": "受賞率",
+    "lastUpdated": "最終更新",
+    "emptyState": "項目はまだありません。",
+    "configMissing": "表示設定が見つかりません。",
+    "loadError": "データを読み込めませんでした。",
+    "avatarAlt": "吉田遥音のアバター"
+  },
+  "sections": {
+    "education": "学歴",
+    "publications": "業績",
+    "awards": "受賞",
+    "career": "経歴"
+  },
+  "publicationGroups": {
+    "conferencePeerReviewed": "会議（査読あり）",
+    "workshopPeerReviewed": "ワークショップ（査読あり）",
+    "conferenceNotPeerReviewed": "会議（査読なし）",
+    "workshopNotPeerReviewed": "ワークショップ（査読なし）",
+    "journal": "ジャーナル",
+    "preprint": "プレプリント"
+  }
+}

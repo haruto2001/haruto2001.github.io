@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://haruto2001.github.io/sitemap.xml
