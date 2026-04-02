@@ -54,6 +54,8 @@ export function createThemeController(context, localeStore) {
         srLabel.textContent = visibleLabel;
       }
     });
+
+    rootElement.style.setProperty("--theme-toggle-icon-url", `url("${iconUrl}")`);
   }
 
   function applyTheme(theme, options = {}) {

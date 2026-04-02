@@ -217,11 +217,11 @@ a:hover {
   height: 20px;
   display: block;
   background-color: currentColor;
-  mask-image: var(--theme-icon-url);
+  mask-image: var(--theme-icon-url, var(--theme-toggle-icon-url));
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
-  -webkit-mask-image: var(--theme-icon-url);
+  -webkit-mask-image: var(--theme-icon-url, var(--theme-toggle-icon-url));
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size: contain;
