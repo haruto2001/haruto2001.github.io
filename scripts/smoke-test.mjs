@@ -94,6 +94,7 @@ function createPageExpectations(siteConfig, language, profile, siteMeta) {
       };
 
   return {
+    language,
     pagePath,
     pageLabel,
     pageTitle,
@@ -159,13 +160,13 @@ function checkPage(errors, html, expectation) {
   expectIncludes(
     errors,
     html,
-    `<a class="language-switch-link" data-language-switch="ja" href="${expectation.languageSwitch.ja}">日本語</a>`,
+    `<a class="language-switch-link${expectation.language === "ja" ? " is-current" : ""}" data-language-switch="ja" href="${expectation.languageSwitch.ja}"${expectation.language === "ja" ? ' aria-current="page"' : ""}>日本語</a>`,
     expectation.pageLabel,
   );
   expectIncludes(
     errors,
     html,
-    `<a class="language-switch-link" data-language-switch="en" href="${expectation.languageSwitch.en}">English</a>`,
+    `<a class="language-switch-link${expectation.language === "en" ? " is-current" : ""}" data-language-switch="en" href="${expectation.languageSwitch.en}"${expectation.language === "en" ? ' aria-current="page"' : ""}>English</a>`,
     expectation.pageLabel,
   );
   expectIncludes(

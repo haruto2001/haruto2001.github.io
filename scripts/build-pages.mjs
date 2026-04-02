@@ -383,6 +383,7 @@ async function buildPage(language, siteConfig, siteMeta) {
   const ogImageUrl = createSocialImageUrl(siteConfig);
   const metaDescription = buildMetaDescription(profile);
   const pageTitle = buildPageTitle(profile, locale);
+  const isJapanese = language === "ja";
   const structuredDataJson = escapeJsonForScript(
     createStructuredData({
       profile,
@@ -418,6 +419,10 @@ async function buildPage(language, siteConfig, siteMeta) {
     navigationButtons: renderNavigationButtons(locale),
     jaHref: config.languageLinks.ja,
     enHref: config.languageLinks.en,
+    jaCurrentClass: isJapanese ? " is-current" : "",
+    enCurrentClass: isJapanese ? "" : " is-current",
+    jaAriaCurrent: isJapanese ? ' aria-current="page"' : "",
+    enAriaCurrent: isJapanese ? "" : ' aria-current="page"',
     avatarPath: config.avatarPath,
     avatarAlt: locale.labels.avatarAlt,
     name: pageContent.name,
