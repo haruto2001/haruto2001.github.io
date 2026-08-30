@@ -73,8 +73,15 @@ function compareAwardRecords(left, right) {
   return compareDescending(left.date, right.date);
 }
 
+function normalizeMonthValue(value) {
+  return Number.isInteger(value) && value >= 1 && value <= 12 ? value : 0;
+}
+
 function comparePublicationRecords(left, right) {
-  return compareDescending(left.year, right.year);
+  return (
+    compareDescending(left.year, right.year) ||
+    normalizeMonthValue(right.month) - normalizeMonthValue(left.month)
+  );
 }
 
 function createLinkedHtml(text, url, resolveUrl, attributes = "") {

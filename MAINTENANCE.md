@@ -9,6 +9,7 @@
 - `sitemap.xml`、`robots.txt`、`manifest.webmanifest` も生成物なので直接編集しません
 - `data/site-meta.json` は自動管理ファイルなので手作業では編集しません
 - `locales/` は UI 文言、`data/` は内容データとして使い分けます
+- `data/*.jsonl` は新しいものほど先頭に並べます。新しい項目は**ファイルの先頭に追記**します
 - 公開内容に関わる変更をした場合は、編集後に `npm run build` を実行します
 
 ## 推奨手順
@@ -57,6 +58,9 @@ npm run build
 言語が分かれる値は `ja` / `en` を持つオブジェクトで管理します。  
 各レコードの `id` が欠けている場合は、`npm run format:data` が自動で補完します。
 
+新しい項目はファイルの先頭に追記します。  
+表示は日付の降順で並びますが、日付が同じ項目どうしは `jsonl` の記載順を保つため、**上にある方が新しいものとして表示されます**。
+
 継続中の学歴や経歴は、`end: null` と `isCurrent: true` で表現します。
 
 ```json
@@ -79,6 +83,16 @@ npm run build
 業績データは日英共通です。  
 分類表示は `type` と `review` をもとに `scripts/static-page-content.js` 側で行います。  
 自分の著者名を強調したい場合は、`selfAuthorIndices` で著者配列中の index を指定します。
+
+新しい項目はファイルの先頭に追記します。  
+並び順は `year` の降順 → `month` の降順 → `jsonl` の記載順（上にあるものが新しい）です。
+
+`month` は発表月・出版月を表す 1〜12 の数値で、任意項目です。並び替えにのみ使い、表示には出ません。  
+同じ `year` の中で `month` を持たない項目は、`month` を持つ項目より後ろに並びます。
+
+```json
+{"id":"publication-2026-xxxxxxxx","authors":[...],"title":"...","venue":"...","year":2026,"month":10,"type":"conference","review":true,"url":"","note":""}
+```
 
 ```json
 {"id":"publication-2026-xxxxxxxx","authors":["Taro A","Haruto Yoshida","Jiro C"],"selfAuthorIndices":[1],"title":"..."}

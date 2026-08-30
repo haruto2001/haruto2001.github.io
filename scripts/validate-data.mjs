@@ -526,6 +526,12 @@ async function validatePublications(validator) {
       "`year` must be an integer between 1900 and 2100",
     );
     validator.assert(
+      value.month === undefined ||
+        (Number.isInteger(value.month) && value.month >= 1 && value.month <= 12),
+      recordPath,
+      "`month` must be an integer between 1 and 12 when present",
+    );
+    validator.assert(
       typeof value.type === "string" && PUBLICATION_TYPES.has(value.type),
       recordPath,
       "`type` must be one of conference/workshop/journal/preprint",

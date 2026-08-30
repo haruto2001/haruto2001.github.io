@@ -42,6 +42,7 @@
   - `data/profile.json`
 - 学歴・経歴・受賞・業績を更新する場合
   - `data/*.jsonl`
+  - 新しい項目はファイルの先頭に追記します（日付が同じ項目は上にあるものが新しい扱いになります）
 - UI 文言を更新する場合
   - `locales/ja.json`
   - `locales/en.json`
